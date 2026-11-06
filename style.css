@@ -1,0 +1,83 @@
+body {
+  background-color: #232323; 
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#h1 {
+  text-align: center; 
+  color: white;
+  background-color: steelblue; 
+  margin: 0;
+  padding: 20px 0;
+  font-weight: normal;
+}
+
+.square {
+  float: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  background-color: white;
+  margin: 1.66%;
+  border-radius: 15pt;
+  transition: background-color 0.6s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.square:hover {
+  transform: scale(1.04); 
+}
+
+.container {
+  max-width: 700px;
+  margin: 20px auto; 
+}
+
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.selected {
+  background-color: tomato;
+  color: white; 
+}
+
+#extreme.selected {
+  background-color: #8e44ad;
+  color: white;
+}
+
+#easy.selected {
+  background-color: yellowgreen;
+  color: white;
+}
+
+button {
+  background-color: inherit;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  height: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover {
+  color: white;
+  background: yellowgreen;
+}
+
+#message {
+  display: inline-block;
+  width: 15%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black; 
+  font-weight: bold;
+}
